@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Butler";
+    font-weight: normal;
+    src: url(/fonts/Butler_Webfont/Butler.woff2) format("woff");
+}
+@font-face {
+    font-family: "Butler Light";
+    font-weight: 100;
+    src: url(/fonts/Butler_Webfont/Butler-Light.woff2) format("woff");
+}
+@font-face {
+    font-family: "Bon Vivant Regular";
+    font-weight: 100;
+    src: url(/fonts/Bon_Vivant/BonVivant-Regular.otf) format("opentype");
+}
+

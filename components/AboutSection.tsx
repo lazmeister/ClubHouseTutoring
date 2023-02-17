@@ -7,7 +7,7 @@ const AboutSection = () => {
   return (
     <section id="meetus">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
-        <h1 className="text-center font-bold text-4xl">
+        <h1 className="text-center font-bold text-4xl font-Butler">
           Meet Us
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
@@ -23,11 +23,11 @@ const AboutSection = () => {
             />
           </div>
           <div className="md:mt-2 md:w-4/5">
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left font-serif">
+            <h1 className="text-center text-3xl font-bold mb-6 md:text-left font-BonVivantRegular">
               Hey there!
             </h1>
             <p>
-              <span className="font-bold text-2xl">I&#39;m Cristina, and I know your kiddo can do amazing things!</span>
+              <span className="font-bold text-4xl font-ButlerLight">I&#39;m Cristina, and I know your kiddo can do amazing things!</span>
             </p>
             <br />
             <p>
@@ -43,7 +43,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              <span className="font-bold text-2xl">Connect First, Teach Second</span>
+              <span className="font-bold text-3xl font-Butler">Connect First, Teach Second</span>
             </p>
             <br />
             <p>
