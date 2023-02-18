@@ -1,7 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
-import { Link } from "react-scroll/modules"
+import Link from "next/link"
 import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
@@ -27,28 +27,18 @@ const HeroSection = () => {
           how quickly we can turn things around. 
 
           </p>
-            <br />
+          <br />
           <Link
-            to="method"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
+            href="#method"
+            className="text-neutral-100 px-8 py-4 bg-teal-600 rounded shadow hover:bg-teal-700 font-Nunito cursor-pointer"
           >
             Learn More
           </Link>
         </div>
       </div>
-      <div className="flex flex-row items-center text-center justify-center ">
+      <div className="flex flex-row items-center text-center justify-center">
         <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
+          href="#about"
         >
           <HiArrowDown size={35} className="animate-bounce" />
         </Link>
@@ -63,40 +53,16 @@ const HeroSection = () => {
             />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl mt-6 md:mt-0 md:text-5xl font-Butler">
-          Join us at the Clubhouse, where together we&#39;ll empower the next generation of readers through Evidence-Based Literacy Instruction.  
-
+          <h1 className="text-4xl mt-6 md:mt-0 md:text-4xl font-Butler">
+          Join us at the Clubhouse, where together we&#39;ll empower the next generation of readers through Evidence-Based Literacy Instruction.
           </h1>
           <br /><br />
           <p className="text-lg mt-4 mb-6 md:text-2xl">
           Here&#39;s how we do it:
-          </p> <HiArrowDown size={35} className="animate-bounce" />
-            {/* <br />
-          <Link
-            to="method"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Learn More
-          </Link> */}
+          </p> 
+          <HiArrowDown size={35} className="animate-bounce" />
         </div>
       </div>
-      {/* <div className="flex flex-row items-center text-center justify-center ">
-        <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <HiArrowDown size={35} className="animate-bounce" />
-        </Link>
-      </div> */}
     </section>
   )
 }

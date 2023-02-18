@@ -14,7 +14,8 @@ module.exports = {
       fontFamily: {
         "Butler": ["Butler, sans-serif"],
         "ButlerLight": ["Butler Light, sans-serif"],
-        "BonVivantRegular": ["Bon Vivant Regular, sans-serif"]
+        "BonVivantRegular": ["Bon Vivant Regular, sans-serif"],
+        "Nunito": ["Nunito-SemiBold, sans-serif"]
       },
       screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440pd" },
       animation: {
